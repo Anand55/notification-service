@@ -1,0 +1,42 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Database
+*.db
+*.sqlite
+data/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+notification-service
+test_examples
+*.exe
+
+# Test coverage
+coverage.txt
+*.out
+
+# Temporary files
+tmp/
+temp/ 
